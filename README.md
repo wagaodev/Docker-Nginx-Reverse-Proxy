@@ -1,7 +1,7 @@
 
 # Desafio Full Cycle - Nginx com Proxy Reverso
 
-## Descrição
+## Descrição do desafio
 
 Neste desafio, você colocará em prática a utilização do Nginx como proxy reverso. A ideia principal é que, quando um usuário acessar o Nginx, ele fará uma chamada à nossa aplicação Node.js. Essa aplicação, por sua vez, adicionará um registro em nosso banco de dados MySQL, cadastrando um nome na tabela `people`.
 
