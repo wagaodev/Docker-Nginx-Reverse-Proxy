@@ -1,5 +1,5 @@
 
-# Desafio Full Cycle - Nginx como Proxy Reverso
+# Desafio Full Cycle - Nginx com Proxy Reverso
 
 ## Descrição
 
