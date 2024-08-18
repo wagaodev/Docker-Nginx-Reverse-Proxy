@@ -86,7 +86,7 @@ docker push seu-usuario/modulo-docker-desafio-02:latest
 Qualquer pessoa pode baixar a imagem usando o comando:
 
 ```bash
-docker pull seu-usuario/modulo-docker-desafio-02:latest
+docker pull wagaodev/modulo-docker-desafio-02:latest
 ```
 
 ## Considerações Finais
