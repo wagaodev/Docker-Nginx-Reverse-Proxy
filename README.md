@@ -33,7 +33,7 @@ O projeto está estruturado da seguinte forma:
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/modulo-docker-desafio-02.git
+git clone https://github.com/wagaodev/Docker-Nginx-Reverse-Proxy
 cd modulo-docker-desafio-02
 ```
 
