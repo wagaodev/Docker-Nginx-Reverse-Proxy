@@ -71,4 +71,4 @@ docker pull wagaodev/modulo-docker-desafio-02:latest
 
 ## Considerações Finais
 
-Este desafio foi desenvolvido para praticar conceitos de Docker, Nginx, Node.js, e MySQL do curso Full Cycle 3.0
+Este desafio foi desenvolvido por mim, Wagner Goulart, para praticar conceitos de Docker, Nginx, Node.js, e MySQL do curso Full Cycle 3.0.
