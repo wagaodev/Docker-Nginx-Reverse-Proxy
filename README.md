@@ -61,27 +61,7 @@ http://localhost:8080
 
 Você deverá ver o título "Full Cycle Rocks!" seguido por uma lista de nomes cadastrados no banco de dados.
 
-## Como Subir a Imagem para o Docker Hub
-
-### 1. Taguear a Imagem
-
-```bash
-docker tag modulo-docker-desafio-02-node seu-usuario/modulo-docker-desafio-02:latest
-```
-
-### 2. Logar no Docker Hub
-
-```bash
-docker login
-```
-
-### 3. Subir a Imagem
-
-```bash
-docker push seu-usuario/modulo-docker-desafio-02:latest
-```
-
-### 4. Baixar a Imagem
+## Como Baixar a Imagem do Docker Hub
 
 Qualquer pessoa pode baixar a imagem usando o comando:
 
@@ -91,4 +71,4 @@ docker pull wagaodev/modulo-docker-desafio-02:latest
 
 ## Considerações Finais
 
-Este desafio foi desenvolvido para praticar conceitos de Docker, Nginx, Node.js, e MySQL, integrando essas tecnologias em um ambiente de desenvolvimento completo e funcional.
+Este desafio foi desenvolvido para praticar conceitos de Docker, Nginx, Node.js, e MySQL do curso Full Cycle 3.0
