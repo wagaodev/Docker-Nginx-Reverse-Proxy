@@ -1,7 +1,7 @@
 
-# Desafio Full Cycle - Nginx como Proxy Reverso
+# Desafio Full Cycle - Nginx com Proxy Reverso
 
-## Descrição
+## Descrição do desafio
 
 Neste desafio, você colocará em prática a utilização do Nginx como proxy reverso. A ideia principal é que, quando um usuário acessar o Nginx, ele fará uma chamada à nossa aplicação Node.js. Essa aplicação, por sua vez, adicionará um registro em nosso banco de dados MySQL, cadastrando um nome na tabela `people`.
 
@@ -33,7 +33,7 @@ O projeto está estruturado da seguinte forma:
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/modulo-docker-desafio-02.git
+git clone https://github.com/wagaodev/Docker-Nginx-Reverse-Proxy
 cd modulo-docker-desafio-02
 ```
 
@@ -61,34 +61,14 @@ http://localhost:8080
 
 Você deverá ver o título "Full Cycle Rocks!" seguido por uma lista de nomes cadastrados no banco de dados.
 
-## Como Subir a Imagem para o Docker Hub
-
-### 1. Taguear a Imagem
-
-```bash
-docker tag modulo-docker-desafio-02-node seu-usuario/modulo-docker-desafio-02:latest
-```
-
-### 2. Logar no Docker Hub
-
-```bash
-docker login
-```
-
-### 3. Subir a Imagem
-
-```bash
-docker push seu-usuario/modulo-docker-desafio-02:latest
-```
-
-### 4. Baixar a Imagem
+## Como Baixar a Imagem do Docker Hub
 
 Qualquer pessoa pode baixar a imagem usando o comando:
 
 ```bash
-docker pull seu-usuario/modulo-docker-desafio-02:latest
+docker pull wagaodev/modulo-docker-desafio-02:latest
 ```
 
 ## Considerações Finais
 
-Este desafio foi desenvolvido para praticar conceitos de Docker, Nginx, Node.js, e MySQL, integrando essas tecnologias em um ambiente de desenvolvimento completo e funcional.
+Este desafio foi desenvolvido por mim, Wagner Goulart, para praticar conceitos de Docker, Nginx, Node.js, e MySQL do curso Full Cycle 3.0.
